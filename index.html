@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Lend</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/css/shared.css">
+
+</head>
+
+<body>
+    <header class="bacgraund-img">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-xl py-0 py-lg-0 ps" id="navvigationbarvisablehidden">
+            <button class="navbar-toggler w-100" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <li class="navbar-brand" href="?page=main">
+                    <a class="nav-link menu-item text-dark">
+                        <img src="img/content logo dark.png">
+                    </a>
+                </li>
+                <span class="navbar-toggler-icon">
+                    <img src="Img/Vector-nav.png" class="w-100">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav w-100 align-items-center">
+                    <li class="nav-item offset-0 offset-lg-2" style="cursor: pointer;">
+                        <a href="index.html" class="nav-link menu-item text-white fs">Home</a>
+                    </li>
+                    <li class="nav-item ml-3" style="cursor: pointer;">
+                        <a href="#product" class="nav-link menu-item text-white fs">Product</a>
+                    </li>
+                    <li class="nav-item ml-3" style="cursor: pointer;">
+                        <a href="#pricing" class="nav-link menu-item text-white fs">Pricing</a>
+                    </li>
+                    <li class="nav-item ml-3" style="cursor: pointer;">
+                        <a href="#about" class="nav-link menu-item text-white fs">About</a>
+                    </li>
+                    <li class="nav-item ml-3" style="cursor: pointer;">
+                        <a href="#contact" class="nav-link menu-item text-white fs">Contact</a>
+                    </li>
+                    <li class="nav-item" href="?page=main">
+                        <a class="nav-link menu-item text-dark">
+                            <img src="img/content logo dark.png">
+                        </a>
+                    </li>
+                    <li class="nav-item offset-0 offset-lg-1" style="cursor: pointer;">
+                        <a href="#work" class="nav-link menu-item fs">
+                            <img src="img/ant-design_twitter-outlined.png">
+                        </a>
+                    </li>
+                    <li class="nav-item ml-1" style="cursor: pointer;">
+                        <a href="#about" class="nav-link menu-item fs">
+                            <img src="img/ant-design_facebook-filled.png">
+                        </a>
+                    </li>
+                    <li class="nav-item ml-1" style="cursor: pointer;">
+                        <a href="#blog" class="nav-link menu-item fs">
+                            <img src="img/ant-design_linkedin-filled.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /Navbar -->
+
+        <!-- Text -->
+        <div class="text-center offset-3 mt-0 mt-lg-5" style="width: 50%;">
+            <h1 class="text-1 display-4 mt-4">The best products <br> start with Figma</h1>
+            <p class="text-2">Most calendars are designed for teams. Slate is designed <br> for freelancers</p>
+            <button class="btn btn-primary rounded-pill px-5">Try For Free</button>
+        </div>
+        <!-- /Text -->
+    </header>
+    <div class="container-fluid mt-5" id="product">
+        <div class="text-center w-50" style="margin: 3rem auto !important;">
+            <h1 class="text-4">Features</h1>
+            <p class="text-3">Most calendars are designed for teams. <br> Slate is designed for freelancers</p>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-6 col-lg-2 col-md-4 m-4 text-center hv">
+                <img src="img/mdi_drawing.png" class="w-25 m-auto">
+                <b class="my-2">OpenType features Variable fonts</b>
+                <span>Slate helps you see how
+                    many more days you need
+                    to work to reach your
+                    financial goal.
+                </span>
+            </div>
+            <div class="col-6 col-lg-2 col-md-4 m-4 text-center hv">
+                <img src="img/Vector.png" class="w-25 m-auto">
+                <b class="my-2">Design with real data</b>
+                <span>Slate helps you see how
+                    many more days you need
+                    to work to reach your
+                    financial goal.
+                </span>
+            </div>
+            <div class="col-6 col-lg-2 col-md-4 m-4 text-center hv">
+                <img src="img/mdi_brush.png" class="w-25 m-auto">
+                <b class="my-2">Fastest way to take action</b>
+                <span>Slate helps you see how
+                    many more days you need
+                    to work to reach your
+                    financial goal.
+                </span>
+            </div>
+            <div class="col-10 my-4 p-0 img-row" id="about">
+                <!-- Modal -->
+                <div class="modal fade show" id="menu">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content border-0">
+                            <div class="modal-header border-0">
+                                <p class="text-3 text-dark">About our team</p>
+                                <a href="#" class="text-danger text-decoration-none" data-dismiss="modal">X</a>
+                            </div>
+                            <div class="modal-body border-0 p-0">
+                                <video src="img/5 Tips For Effective Teamwork.mp4" autoplay controls
+                                    style="width: 100% !important;"></video>
+                            </div>
+                            <div class="modal-footer border-0 p-0">
+                                <div class="btn btn-success" data-dismiss="modal">I got it</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Modal -->
+                <img src="img/screen.png" class="img-fluid">
+                <img src="img/play button.png" class="play-icon" data-toggle="modal" data-target="#menu">
+            </div>
+        </div>
+        <div class="row justify-content-center my-5">
+            <div class="col-10 col-lg-5 col-md-6 px-5 r-text">
+                <h1 class="text-4">Fastest way to <br> organize</h1>
+                <p class="text-3">Most calendars are designed for teams. <br> Slate is designed for freelancers</p>
+                <button class="btn btn-primary rounded-pill my-4 w-35">Try For Free</button>
+            </div>
+            <div class="col-10 col-lg-5 col-md-6 p-0 my-4 my-lg-0">
+                <img src="img/screen content.png" class="img-fluid">
+            </div>
+            <div class="col-10 col-lg-5 col-md-6 p-0 my-5">
+                <img src="img/ screen content (1).png" class="img-fluid">
+            </div>
+            <div class="col-10 col-lg-5 col-md-6 px-5 my-5 r-text">
+                <b>At your fingertips</b>
+                <h1 class="text-4">Lightning fast prototyping </h1>
+                <b class="mt-4">Subscribe to our Newsletter</b>
+                <span>Available exclusivery on Figmaland</span>
+                <form action="#" class="d-flex r-form">
+                    <input type="email" placeholder="Your email" class="form-control rounded-pill p-3 w-45 my-4"
+                        style="background-color: #e6e6e6;">
+                    <button class="btn btn-primary rounded-pill my-4 ml-3">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Mini-card -->
+        <div class="text-center w-50" style="margin: 3rem auto !important;">
+            <h1 class="text-4">Partners</h1>
+            <p class="text-3">Most calendars are designed for teams. <br> Slate is designed for freelancers</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-7 col-lg-2 col-md-4 my-3 my-lg-0 p-3 hv-card">
+                <span class="text-5">Client Name</span>
+                <img src="img/logos_google.png" class="img-fluid">
+            </div>
+            <div class="col-7 col-lg-2 col-md-4 my-3 my-lg-0 p-3 hv-card">
+                <span class="text-5">Client Name</span>
+                <img src="img/Rectangle.png" class="img-fluid mt-2">
+            </div>
+            <div class="col-7 col-lg-2 col-md-4 my-3 my-lg-0 p-3 hv-card">
+                <span class="text-5">Client Name</span>
+                <img src="img/Rectangle (1).png" class="img-fluid">
+            </div>
+            <div class="col-7 col-lg-2 col-md-4 my-3 my-lg-0 p-3 hv-card">
+                <span class="text-5">Client Name</span>
+                <img src="img/Rectangle (4).png" style="width: 160px;">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-7 col-lg-2 col-md-4 my-3 my-lg-0 p-3 hv-card">
+                <span class="text-5">Client Name</span>
+                <img src="img/Rectangle (3).png" class="img-fluid">
+            </div>
+            <div class="col-7 col-lg-2 col-md-4 my-3 my-lg-0 p-3 hv-card">
+                <span class="text-5">Client Name</span>
+                <img src="img/logos_google.png" class="img-fluid mt-2">
+            </div>
+            <div class="col-7 col-lg-2 col-md-4 my-3 my-lg-0 p-3 hv-card">
+                <span class="text-5">Client Name</span>
+                <img src="img/Rectangle (4).png" style="width: 160px;">
+            </div>
+            <div class="col-7 col-lg-2 col-md-4 my-3 my-lg-0 p-3 hv-card">
+                <span class="text-5">Client Name</span>
+                <img src="img/Rectangle.png" class="img-fluid">
+            </div>
+        </div><br>
+        <div class="row justify-content-center my-4">
+            <div class="col-7 col-lg-2 col-md-4">
+                <button class="btn btn-primary rounded-pill w-100">Try For Free</button>
+            </div>
+        </div>
+        <!-- /Mini-card -->
+
+        <!-- Carousel -->
+        <div class="text-center my-5">
+            <h1 class="text-4">Testimonials</h1>
+            <img src="img/logos_ibm.png" class="my-4">
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-9 col-lg-10">
+                <div class="carousel slide" data-ride="carousel" id="myCarousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row d-flex justify-content-center p-0">
+                                <span class="text-3 text-center my-4" style="color: #808080;">
+                                    Most calendars are designed for teams. Slate is designed for freelancers <br> who
+                                    want a simple way to plan their schedule.
+                                </span>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="avatar p-0" style="width: 50px;">
+                                    <img src="img/avatar.png" class="w-100">
+                                </div>
+                                <span class="text-6 ml-2 mt-3">
+                                    Organize across
+                                    <p class="text-6">Ui designer</p>
+                                </span>
+                            </div>
+                            <br><br>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row d-flex justify-content-center p-0">
+                                <span class="text-3 text-center my-4" style="color: #808080;">
+                                    Most calendars are designed for teams. Slate is designed for freelancers <br> who
+                                    want a simple way to plan their schedule.
+                                </span>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="avatar p-0" style="width: 50px;">
+                                    <img src="img/monalisa.png" class="w-100">
+                                </div>
+                                <span class="text-6 ml-2 mt-3">
+                                    Organize across
+                                    <p class="text-6">Web designer</p>
+                                </span>
+                            </div>
+                            <br><br>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row d-flex justify-content-center p-0">
+                                <span class="text-3 text-center my-4" style="color: #808080;">
+                                    Most calendars are designed for teams. Slate is designed for freelancers <br> who
+                                    want a simple way to plan their schedule.
+                                </span>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="avatar p-0" style="width: 50px;">
+                                    <img src="img/Mask Group (1).png" class="w-100">
+                                </div>
+                                <span class="text-6 ml-2 mt-3">
+                                    Organize across
+                                    <p class="text-6">Web developer</p>
+                                </span>
+                            </div>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8 col-lg-3 col-md-5 text-center">
+                        <button class="btn btn-primary rounded-pill w-75">More Testimonials</button>
+                    </div>
+                </div>
+                <!-- <div class="text-center w-25 m-auto">
+                </div> -->
+            </div>
+        </div>
+        <!-- /Carousel -->
+
+        <!-- Pricing -->
+        <div class="row bg-row my-5 justify-content-center" id="pricing">
+            <div class="col-lg-12">
+                <div class="text-center w-50" style="margin: 3rem auto !important;">
+                    <h1 class="text-4 text-white">Pricing<h1>
+                    <p class="text-3 text-white my-3">Most calendars are designed for teams. <br> Slate is designed for freelancers</p>
+                </div>
+            </div>
+            <div class="pricing-card m-4 p-4">
+                <b>FREE</b>
+                <span class="text-6">Organize across all <br> apps by hand</span>
+                <div class="d-flex align-items-center">
+                    <h1 class="display-3 font-weight-bold">0</h1>
+                    <b class="text-7 ml-2">$ <br> <span class="text-8">Per Month</span></b>
+                </div>
+                <span class="text-6 m-2">Pricing Feature</span>
+                <span class="text-6 m-2">Pricing Feature</span>
+                <span class="text-6 m-2">Pricing Feature</span>
+                <span class="text-6 m-2">Pricing Feature</span>
+                <button class="btn btn-primary rounded-pill w-75 m-2">Order Now</button>
+            </div>
+            <div class="pricing-card m-4 p-4">
+                <b>STANDARD</b>
+                <span class="text-6">Organize across all <br> apps by hand</span>
+                <div class="d-flex align-items-center">
+                    <h1 class="display-3 font-weight-bold">10</h1>
+                    <b class="text-7 ml-2">$ <br> <span class="text-8">Per Month</span></b>
+                </div>
+                <span class="text-6 m-2">Pricing Feature</span>
+                <span class="text-6 m-2">Pricing Feature</span>
+                <span class="text-6 m-2">Pricing Feature</span>
+                <span class="text-6 m-2">Pricing Feature</span>
+                <button class="btn btn-primary rounded-pill w-75 m-2">Order Now</button>
+            </div>
+            <div class="pricing-card m-4 p-4">
+                <b>BUSINESS</b>
+                <span class="text-6">Organize across all <br> apps by hand</span>
+                <div class="d-flex align-items-center">
+                    <h1 class="display-3 font-weight-bold">99</h1>
+                    <b class="text-7 ml-2">$ <br> <span class="text-8">Per Month</span></b>
+                </div>
+                <span class="text-6 m-2">Pricing Feature</span>
+                <span class="text-6 m-2">Pricing Feature</span>
+                <span class="text-6 m-2">Pricing Feature</span>
+                <span class="text-6 m-2">Pricing Feature</span>
+                <button class="btn btn-primary rounded-pill w-75 m-2">Order Now</button>
+            </div>
+        </div>
+        <!-- /Pricing -->
+
+        <!-- Contact-row -->
+        <div class="row justify-content-center" id="contact">
+            <div class="col-lg-12">
+                <div class="text-center w-50" style="margin: 3rem auto !important;">
+                    <h1 class="text-4">Contact Us<h1>
+                    <p class="text-3 my-3">Most calendars are designed for teams. <br> Slate is designed for freelancers</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 d-flex justify-content-center">
+                <form action="#" class="form-card w-75">
+                    <b>Contact Us</b>
+                    <input type="text" placeholder="Your name" class="form-control rounded-pill p-3 my-4">
+                    <input type="email" placeholder="Your email" class="form-control rounded-pill p-3 my-2">
+                    <textarea name="text" placeholder="You message" cols="36" rows="10" class="my-2 p-3 textarea"></textarea>
+                    <button class="btn btn-primary rounded-pill my-4">Send</button>
+                </form>
+            </div>
+            <div class="col-lg-5 col-md-6 d-flex align-items-center justify-content-center flex-column p-0">
+                <div class="d-flex link">
+                    <div class="text-center m-2">
+                        <img src="img/bx_bx-map.png"><br>
+                        <a href="#" class="text-9 my-2">6386 Spring St undefined Anchorage,<br> Georgia 12473 United States</a>
+                    </div>
+                    <div class="text-center m-2">
+                        <img src="img/ic_baseline-phone-android.png"><br>
+                        <a href="#" class="text-9 my-2">(843) 555-0130</a>
+                    </div>
+                    <div class="text-center m-2">
+                        <img src="img/Vector (1).png"><br>
+                        <a href="#" class="text-9 my-2">willie.jennings@example.com</a>
+                    </div>
+                </div>
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d97257.84088798227!2d71.70805963395873!3d40.37987632998758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1693753904706!5m2!1sru!2s"
+                frameborder="0" class="w-75 my-4"  style="height: 290px;"></iframe>
+                <div class="d-flex" style="margin-right: auto !important;">
+                    <a href="#" class="m-2">
+                        <img src="img/ant-design_twitter-outlined (1).png">
+                    </a>
+                    <a href="#" class="m-2">
+                        <img src="img/ant-design_facebook-filled (1).png">
+                    </a>
+                    <a href="#" class="m-2">
+                        <img src="img/ant-design_linkedin-filled (1).png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- /Contact-row -->
+
+        <!-- Footer-row -->
+        <div class="row bg-row-2 mt-5">
+            <div class="col-lg-1 col-8 p-0 f-link">
+                <b>Pages</b>
+                <a href="#" class="text-10 mt-4">Home</a>
+                <a href="#" class="text-10 my-2">Product</a>
+                <a href="#" class="text-10 my-1">Pricing</a>
+                <a href="#" class="text-10 my-1">About</a>
+                <a href="#" class="text-10 my-1">Contact</a>
+            </div>
+            <div class="col-lg-2 col-8 p-0 f-link">
+                <b>Tomothy</b>
+                <a href="#" class="text-10 mt-4">Eleanor Edwards</a>
+                <a href="#" class="text-10 my-2">Ted Robertson</a>
+                <a href="#" class="text-10 my-1">Annette Russell</a>
+                <a href="#" class="text-10 my-1">Jennie Mckinney</a>
+                <a href="#" class="text-10 my-1">Gloria Richards</a>
+            </div>
+            <div class="col-lg-2 col-8 p-0 f-link">
+                <b>Jane Black</b>
+                <a href="#" class="text-10 mt-4">Philip Jones</a>
+                <a href="#" class="text-10 my-2">Product</a>
+                <a href="#" class="text-10 my-1">Colleen Russell</a>
+                <a href="#" class="text-10 my-1">Marvin Hawkins</a>
+                <a href="#" class="text-10 my-1">Bruce Simmmons</a>
+            </div>
+            <div class="col-lg-2 col-8 p-0 f-link">
+                <div class="d-flex align-items-center my-2">
+                    <img src="img/bx_bx-map (1).png">
+                    <span class="text-10 text-white">7480 Mockingbird Hill undefined</span>
+                </div>
+                <div class="d-flex align-items-center my-2">
+                    <img src="img/ic_baseline-phone-android (1).png">
+                    <span class="text-10 text-white">(239) 555-0108</span>
+                </div>
+                <div class="d-flex my-4" style="margin-right: auto !important;">
+                    <a href="#" class="m-2">
+                        <img src="img/ant-design_twitter-outlined.png">
+                    </a>
+                    <a href="#" class="m-2">
+                        <img src="img/ant-design_facebook-filled.png">
+                    </a>
+                    <a href="#" class="m-2">
+                        <img src="img/ant-design_linkedin-filled.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- /Footer-row -->
+    </div>
+</body>
+
+</html>
+<script src="index.js"></script>
+<script src="vendor/scripts/jQuery.min.js"></script>
+<script src="vendor/scripts/popper.js"></script>
+<script src="vendor/scripts/bootstrap.min.js"></script>
